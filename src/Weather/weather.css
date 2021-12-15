@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.topNav {
+  padding: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0fdf2b;
+  color: #093541;
+}
+.topNav h2 {
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+input {
+  width: 40%;
+  padding: 10px;
+  font-size: 25px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #093541;
+  transition: 0.5s;
+}
+input:focus {
+  border-bottom: 3px solid #0fdf2b;
+}
+.city {
+  width: 300px;
+  padding: 20px;
+  margin-top: 25px;
+  background: #8fb2f3;
+  border-radius: 30px;
+  margin: 5px auto;
+  text-align: center;
+  height: 300px;
+  box-shadow: 0 0 10px 10px #5a58584d;
+}
+.details {
+  margin-top: 30px;
+}
+.details .city-name {
+  font-family: "Ubuntu", sans-serif;
+}
+.details .city-temp {
+  margin: 20px;
+  font-size: 18px;
+  font-family: "Ubuntu", sans-serif;
+}
+.details .city-temp p {
+  text-decoration: underline;
+  margin-top: 5px;
+  text-transform: uppercase;
+  color: #093541;
+  letter-spacing: 2px;
+}
