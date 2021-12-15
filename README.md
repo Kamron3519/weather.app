@@ -1,2 +1,2 @@
-# weather.app
-https://reactweather1.netlify.app 
+# Name: weather.app
+demo: https://reactweather1.netlify.app 
